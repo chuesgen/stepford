@@ -9,7 +9,7 @@ requires = []
 
 setup(name='stepford',
     keywords='python,facebook,integration test,test users',
-    version='0.1',
+    version='0.2',
     description='An implementation of the Facebook test user API',
     author='Demian Brecht',
     author_email='demianbrecht@gmail.com',
@@ -27,6 +27,8 @@ setup(name='stepford',
         'Topic :: Utilities',
     ],
     long_description=README,
+    packages=find_packages(),
+    include_package_data=True,
     install_requires=requires,
     test_suite='tests.TestStepford',
 )

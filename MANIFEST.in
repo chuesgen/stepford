@@ -1,1 +1,3 @@
-include README LICENSE CHANGES stepford.py tests.py
+include README LICENSE CHANGES 
+include stepford/* 
+include test/*
